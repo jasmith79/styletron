@@ -1,5 +1,5 @@
-import shorthandMap from './shorthand-map';
-import hyphenate from './hyphenate-style-name';
+import shorthandMap from './shorthand-map.js';
+import hyphenate from './hyphenate-style-name.js';
 
 export default function warnMixedProperties(stylesObject) {
   const hyphenated = {};

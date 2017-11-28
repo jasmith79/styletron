@@ -1,4 +1,4 @@
-import hyphenate from './hyphenate-style-name';
+import hyphenate from './hyphenate-style-name.js';
 
 export default function injectStyle(styletron, styles, media, pseudo) {
   let classString = '';

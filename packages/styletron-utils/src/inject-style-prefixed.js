@@ -1,5 +1,5 @@
-import hyphenate from './hyphenate-style-name';
-import prefixAll from 'inline-style-prefixer/static';
+import hyphenate from './hyphenate-style-name.js';
+import prefixAll from '../../inline-style-prefixer/static/index.js';
 
 const prefixedBlockCache = {};
 
